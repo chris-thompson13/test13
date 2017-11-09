@@ -60,6 +60,7 @@ ul{
 .top{
   margin-top:60px;
   font-size: 40px;
+  animation: grow5 2s ease;
 
 }
 .inp{
@@ -234,7 +235,7 @@ h1{
   }
   50% {}
   100% {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @keyframes grow3 {
@@ -254,6 +255,15 @@ h1{
   50% {}
   100% {
     font-size: 20px;
+  }
+}
+@keyframes grow5 {
+  0%{
+    font-size: 1px;
+  }
+  50% {}
+  100% {
+    font-size: 40px;
   }
 }
 
