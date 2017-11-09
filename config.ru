@@ -1,1 +1,2 @@
+require './'
 run Sinatra::Application
