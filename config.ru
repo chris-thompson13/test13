@@ -1,2 +1,2 @@
-require './views/index'
+require './app'
 run Sinatra::Application
