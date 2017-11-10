@@ -99,6 +99,15 @@ button:focus {outline:0;}
   position: relative;
   padding:20px;
 }
+.ok2 {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:20px;
+}
 button:hover{
   color: #ff3363;
   font-size: 20px;
