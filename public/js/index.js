@@ -25,7 +25,6 @@ $(document).ready(function () {
 });
 
 function loadJS(){
-  window.scrollBy(0, 400)
 
   if (toggleHide2.classList.contains('width2')){
   toggleHide2.classList.remove('width2')
@@ -39,11 +38,12 @@ if (toggleHide.classList.contains('width')){
 toggleHide.classList.remove('width')
 toggleHide.classList.add('width2')
 }
+setTimeout(window.scrollBy(0, 400),1000)
+
 
 }
 
 function loadJSMap(){
-  window.scrollBy(0, 400)
 
   if (toggleHide.classList.contains('width2')){
   toggleHide.classList.remove('width2')
@@ -57,11 +57,11 @@ if (toggleHide2.classList.contains('width')){
 toggleHide2.classList.remove('width')
 toggleHide2.classList.add('width2')
 }
-
+setTimeout(window.scrollBy(0, 400),1000)
+,)
 }
 
 function loadJSMusic(){
-  window.scrollBy(0, 400)
   if (toggleHide.classList.contains('width2')){
   toggleHide.classList.remove('width2')
   toggleHide.classList.add('width')
@@ -74,5 +74,6 @@ if (toggleHide3.classList.contains('width')){
 toggleHide3.classList.remove('width')
 toggleHide3.classList.add('width2')
 }
+setTimeout(window.scrollBy(0, 400),1000)
 
 }
