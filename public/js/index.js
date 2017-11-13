@@ -25,6 +25,8 @@ $(document).ready(function () {
 });
 
 function loadJS(){
+  window.scrollBy(0, 400)
+
   if (toggleHide2.classList.contains('width2')){
   toggleHide2.classList.remove('width2')
   toggleHide2.classList.add('width')
@@ -41,6 +43,8 @@ toggleHide.classList.add('width2')
 }
 
 function loadJSMap(){
+  window.scrollBy(0, 400)
+
   if (toggleHide.classList.contains('width2')){
   toggleHide.classList.remove('width2')
   toggleHide.classList.add('width')
@@ -57,6 +61,7 @@ toggleHide2.classList.add('width2')
 }
 
 function loadJSMusic(){
+  window.scrollBy(0, 400)
   if (toggleHide.classList.contains('width2')){
   toggleHide.classList.remove('width2')
   toggleHide.classList.add('width')
